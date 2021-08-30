@@ -1,0 +1,45 @@
+$vista:desktop; 
+
+@if $vista==desktop{
+    @media only screen and (min-width:1024px){
+        .imgCarousel img{     
+            width: 612px;
+            height: 407px;
+            margin: 5px;
+        }
+        .img-pago{
+            width: 600px;
+            height: 300px;
+        }
+    }
+
+}
+
+$vista:tablet; 
+
+@if $vista==tablet{
+        @media only screen and (max-width:1023px) {
+            .imgCarousel img{     
+                width:420px;
+                height: 300px;
+                margin: 5px;
+            }   
+            .img-pago{
+                width: 400px;
+                height: 250px;
+            }
+        }
+    @media only screen and (max-width:767px){
+        .imgCarousel img{     
+            width:80%;
+            height: 80%;
+            margin: 5px;
+        }   
+        .img-pago{
+            width: 120px;
+            height: 80px;
+        }
+    }
+}
+
+

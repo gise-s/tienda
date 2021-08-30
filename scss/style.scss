@@ -1,0 +1,158 @@
+@import "color";
+@import "tamaños";
+@import "vistas";
+
+body{
+    background-color: $marron-claro;
+    margin-left: $margen_body;
+    margin-right:$margen_body;
+    
+}
+
+div{
+    margin-top: 4px;    
+}
+
+.alert-primary {
+    color: $blanco;
+    background-color: $violeta-oscuro;
+    border-color: $violeta-oscuro;
+}
+
+th, td{
+    border: 2px solid #999;
+    padding: 0.5rem;
+}
+.paddingTB{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5{
+    color: $violeta-oscuro;
+    font-style: oblique;
+    text-align: center;
+}
+
+p{
+    color: $blanco;
+    text-align: justify;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    font-style: italic;
+}
+
+.card.body{
+    height: 300px ;
+}
+.card-text{
+    color: $marron-claro;
+}
+
+.card-img-top{
+    height: 201px;
+}
+.copyright{
+    color: $marron-claro ;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 800;
+    background-color:$blanco ;
+    text-align: center;
+}
+
+.footer1 {
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470");
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+        img{
+        border: none;
+        transform: rotate(-16deg);
+        transition: heigth 2s;
+        }
+        img:hover{
+            transform: rotate(0deg) scale(1.5);
+        }
+}
+
+.productoImg{
+  height: $tamaño_producto;
+  width: $tamaño_producto;
+}
+
+.formulario{
+    text-align: center;
+}
+
+/*ben*/
+
+.rowTitulo__h1--decoracion {
+    text-decoration: underline overline;
+}
+
+
+.rowTitulo__h1--fuente{
+    font-size: x-large;
+}
+.rowTitulo__h1--alineacion{
+    text-align: center;
+}
+.rowSubtitulo__h3--color {
+    color: $violeta;
+}
+
+.rowSubtitulo__h3--tamaño{
+    font-size: large;
+}
+
+
+.rowTexto__p--color{
+    color: $violeta-oscuro;
+}
+
+.rowTexto__p--tamaño{
+    font-weight: 500;
+}
+
+.rowTexto1__p--color{
+    color: $violeta-oscuro;
+} 
+
+.rowTexto1__p--tamaño{
+    font-weight: 300;
+}
+
+/*parpadeo*/
+.parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }

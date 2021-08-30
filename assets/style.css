@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@media only screen and (min-width: 1024px) {
+  .imgCarousel img {
+    width: 612px;
+    height: 407px;
+    margin: 5px; }
+  .img-pago {
+    width: 600px;
+    height: 300px; } }
+
+@media only screen and (max-width: 1023px) {
+  .imgCarousel img {
+    width: 420px;
+    height: 300px;
+    margin: 5px; }
+  .img-pago {
+    width: 400px;
+    height: 250px; } }
+
+@media only screen and (max-width: 767px) {
+  .imgCarousel img {
+    width: 80%;
+    height: 80%;
+    margin: 5px; }
+  .img-pago {
+    width: 120px;
+    height: 80px; } }
+
+body {
+  background-color: #caa38e;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+div {
+  margin-top: 4px; }
+
+.alert-primary {
+  color: #FFF8F0;
+  background-color: #3F3244;
+  border-color: #3F3244; }
+
+th, td {
+  border: 2px solid #999;
+  padding: 0.5rem; }
+
+.paddingTB {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+h1, h2, h3, h4, h5 {
+  color: #3F3244;
+  font-style: oblique;
+  text-align: center; }
+
+p {
+  color: #FFF8F0;
+  text-align: justify;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  font-style: italic; }
+
+.card.body {
+  height: 300px; }
+
+.card-text {
+  color: #caa38e; }
+
+.card-img-top {
+  height: 201px; }
+
+.copyright {
+  color: #caa38e;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 800;
+  background-color: #FFF8F0;
+  text-align: center; }
+
+.footer1 {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470");
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px; }
+  .footer1 img {
+    border: none;
+    transform: rotate(-16deg);
+    transition: heigth 2s; }
+  .footer1 img:hover {
+    transform: rotate(0deg) scale(1.5); }
+
+.productoImg {
+  height: 200px;
+  width: 200px; }
+
+.formulario {
+  text-align: center; }
+
+/*ben*/
+.rowTitulo__h1--decoracion {
+  text-decoration: underline overline; }
+
+.rowTitulo__h1--fuente {
+  font-size: x-large; }
+
+.rowTitulo__h1--alineacion {
+  text-align: center; }
+
+.rowSubtitulo__h3--color {
+  color: #83439C; }
+
+.rowSubtitulo__h3--tamaño {
+  font-size: large; }
+
+.rowTexto__p--color {
+  color: #3F3244; }
+
+.rowTexto__p--tamaño {
+  font-weight: 500; }
+
+.rowTexto1__p--color {
+  color: #3F3244; }
+
+.rowTexto1__p--tamaño {
+  font-weight: 300; }
+
+/*parpadeo*/
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite; }
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
